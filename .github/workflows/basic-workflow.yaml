@@ -1,9 +1,9 @@
 on:
   push:
-    branches: [ "maaster" ]
+    branches: [ "master" ]
 
 env:
-  IMAGE_NAME: reactjs-image-afternoon
+  IMAGE_NAME: reactjs-image-fullstack-afternoon
 jobs:
   build-and-push:
     runs-on: ubuntu-latest 
