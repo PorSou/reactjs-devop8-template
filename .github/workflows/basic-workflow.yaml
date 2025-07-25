@@ -3,7 +3,7 @@ on:
     branches: [ "maaster" ]
 
 env:
-  IMAGE_NAME: reactjs-image
+  IMAGE_NAME: reactjs-image-afternoon
 jobs:
   build-and-push:
     runs-on: ubuntu-latest 
